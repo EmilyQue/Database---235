@@ -1,0 +1,37 @@
+	private void getAllOrders() {
+//		Connection conn = null;
+//		String url = "jdbc:postgresql://localhost:5432/test";
+//		String username = "postgres";
+//		String password = "root";
+//		String sql = "SELECT * FROM testapp.orders";
+//		
+//		List <Order> orders = new ArrayList<Order>();
+//		try {
+//			conn = DriverManager.getConnection(url, username, password);
+//			Statement stmt = conn.createStatement();
+//			ResultSet rs = stmt.executeQuery(sql);
+//			
+//			while (rs.next()) {
+//				orders.add(new Order(rs.getString("order_no"), rs.getString("product_name"), rs.getFloat("price"), rs.getInt("quantity")));
+//				System.out.println("Order Number: " + rs.getString("order_no") + "Product Name: " + rs.getString("product_name") + "Price: " + rs.getFloat("price") + "Quantity: " + rs.getInt("quantity"));
+//			}
+//			rs.close();
+//			System.out.println("=======> Number of orders returned is: " + orders.size());
+//		}
+//		
+//		catch (SQLException e) {
+//			e.printStackTrace();
+//		}
+//		
+//		finally {
+//			if (conn != null) {
+//				try {
+//					conn.close();
+//				}
+//				
+//				catch (SQLException e) {
+//					e.printStackTrace();
+//				}
+//			}
+//		}
+	}
